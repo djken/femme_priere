@@ -1,0 +1,118 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #f9f5fb;
+    color: #333;
+    line-height: 1.6;
+}
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1920x700.png?text=Spiritual+Hero+Image');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.hero-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.navbar {
+    background-color: #4a2c6d;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar-brand, .nav-link {
+    font-family: 'Playfair Display', serif;
+    color: #f4e8c1 !important;
+    font-size: 1.1rem;
+}
+.nav-link:hover {
+    color: #d4a017 !important;
+    transition: color 0.3s ease;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.card-title {
+    font-family: 'Playfair Display', serif;
+    color: #4a2c6d;
+}
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+.btn-primary {
+    background-color: #d4a017;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #b88b14;
+}
+.footer {
+    background-color: #4a2c6d;
+    color: #f4e8c1;
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4a2c6d;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-control:focus {
+    border-color: #d4a017;
+    box-shadow: 0 0 5px rgba(212,160,23,0.3);
+}
+.testimonial-card .card-body {
+    background-color: #f9f5fb;
+    border-radius: 15px;
+}
+.blog-card .card-body {
+    padding: 20px;
+}
+.blog-card .card-title {
+    font-size: 1.25rem;
+}
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
