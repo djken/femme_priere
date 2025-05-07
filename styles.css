@@ -5,10 +5,11 @@ body {
     line-height: 1.6;
 }
 .hero-section {
-    background: linear-gradient(rgba(44, 40, 40, 0.6), rgba(146, 99, 99, 0.6)), url('https://via.placeholder.com/1920x700.png?text=Spiritual+Hero+Image');
+    /* background: linear-gradient(rgba(rgba(237, 228, 255, 1), 0.6), rgba(180, 134, 134, 0.6)), url('https://via.placeholder.com/1920x700.png?text=Spiritual+Hero+Image'); */
+    background: linear-gradient(rgba(237, 228, 255, 0.6), rgba(189, 219, 226, 0.6)), url('https://via.placeholder.com/1920x700.png?text=Spiritual+Hero+Image');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #394162;
     padding: 120px 0;
     text-align: center;
     position: relative;
