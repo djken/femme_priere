@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
 }
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1920x700.png?text=Spiritual+Hero+Image');
+    background: linear-gradient(rgba(44, 40, 40, 0.6), rgba(146, 99, 99, 0.6)), url('https://via.placeholder.com/1920x700.png?text=Spiritual+Hero+Image');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -37,11 +37,11 @@ body {
 }
 .navbar-brand, .nav-link {
     font-family: 'Playfair Display', serif;
-    color: #f4e8c1 !important;
+    color: #8d6e00 !important;
     font-size: 1.1rem;
 }
 .nav-link:hover {
-    color: #d4a017 !important;
+    color: #deb754 !important;
     transition: color 0.3s ease;
 }
 .card {
