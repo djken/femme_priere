@@ -38,7 +38,8 @@ body {
 }
 .navbar-brand, .nav-link {
     font-family: 'Playfair Display', serif;
-    color: #8d6e00 !important;
+    /* color: #8d6e00 !important; */
+    color: #394162 !important;
     font-size: 1.1rem;
 }
 .nav-link:hover {
