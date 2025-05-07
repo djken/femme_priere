@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
 </head>
@@ -57,7 +59,7 @@
             <h2 class="text-center mb-5">Qui sommes-nous?</h2>
             <p class="text-center">Né en temps de crise, élevé par la foi, Femme en prière pour le Royaume de Dieu est une réponse divine à une génération en détresse.</p>
             <div class="text-center mt-4">
-                <a href="#" class="btn btn-primary">Découvrir notre histoire</a>
+                <a href="./about.html" class="btn btn-primary">Découvrir notre histoire</a>
             </div>
         </div>
     </section>
@@ -70,6 +72,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card text-center animate-on-scroll">
                         <div class="card-body">
+                            <i class="fas fa-pray fa-2x mb-3"></i>
                             <h5 class="card-title">Prière</h5>
                             <p class="card-text">Des rencontres pour fortifier votre foi et intercéder ensemble.</p>
                         </div>
@@ -78,6 +81,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card text-center animate-on-scroll">
                         <div class="card-body">
+                            <i class="fas fa-globe fa-2x mb-3"></i>
                             <h5 class="card-title">Evangélisation</h5>
                             <p class="card-text">Porter la lumière du Royaume aux nations par nos vies et nos paroles.</p>
                         </div>
@@ -86,19 +90,24 @@
                 <div class="col-md-3 mb-4">
                     <div class="card text-center animate-on-scroll">
                         <div class="card-body">
-                            <h5 class="card-title">Témoignages</h5>
-                            <p class="card-text">Partager des histoires inspirantes de transformation et de foi.</p>
+                            <i class="fas fa-hands-helping fa-2x mb-3"></i>
+                            <h5 class="card-title">Aide sociale</h5>
+                            <p class="card-text">Soutenir les femmes dans le besoin avec compassion et amour.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="card text-center animate-on-scroll">
                         <div class="card-body">
-                            <h5 class="card-title">Aide sociale</h5>
-                            <p class="card-text">Soutenir les femmes dans le besoin avec compassion et amour.</p>
+                            <i class="fas fa-calendar-alt fa-2x mb-3"></i>
+                            <h5 class="card-title">Témoignages</h5>
+                            <p class="card-text">Partager des histoires inspirantes de transformation et de foi.</p>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="activities.html" class="btn btn-primary">Voir plus</a>
             </div>
         </div>
     </section>
@@ -133,88 +142,123 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="section-padding bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">Blog / Méditations</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card blog-card animate-on-scroll">
-                        <div class="card-body">
-                            <h5 class="card-title">Trouver la paix dans la tempête</h5>
-                            <p class="card-text">15 Juillet 2024</p>
-                            <p class="card-text">Comment la prière peut nous ancrer même lorsque tout semble incertain...</p>
-                            <a href="#" class="btn btn-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card blog-card animate-on-scroll">
-                        <div class="card-body">
-                            <h5 class="card-title">L'importance de la communion fraternelle</h5>
-                            <p class="card-text">10 Juillet 2024</p>
-                            <p class="card-text">Se réunir en tant que femmes de foi pour s'encourager mutuellement...</p>
-                            <a href="#" class="btn btn-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card blog-card animate-on-scroll">
-                        <div class="card-body">
-                            <h5 class="card-title">Répondre à l'appel de Dieu</h5>
-                            <p class="card-text">5 Juillet 2024</p>
-                            <p class="card-text">Discerner et obéir à la voix de Dieu dans notre vie quotidienne...</p>
-                            <a href="#" class="btn btn-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="text-center mt-4">
-                <a href="#" class="btn btn-primary">Voir tous les articles</a>
+                <a href="testimonials.html" class="btn btn-primary">Voir plus</a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding">
-        <div class="container animate-on-scroll">
-            <h2 class="text-center mb-5">Contactez-nous</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nom</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Envoyer</button>
-                    </form>
+<!-- Blog Section -->
+<section id="blog" class="section-padding bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Blog / Méditations</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card blog-card animate-on-scroll">
+                    <div class="card-body">
+                        <h5 class="card-title">Trouver la paix dans la tempête</h5>
+                        <p class="card-text">15 Juillet 2024</p>
+                        <p class="card-text">Comment la prière peut nous ancrer même lorsque tout semble incertain...</p>
+                        <a href="#" class="btn btn-primary">Lire la suite</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card blog-card animate-on-scroll">
+                    <div class="card-body">
+                        <h5 class="card-title">L'importance de la communion fraternelle</h5>
+                        <p class="card-text">10 Juillet 2024</p>
+                        <p class="card-text">Se réunir en tant que femmes de foi pour s'encourager mutuellement...</p>
+                        <a href="#" class="btn btn-primary">Lire la suite</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card blog-card animate-on-scroll">
+                    <div class="card-body">
+                        <h5 class="card-title">Répondre à l'appel de Dieu</h5>
+                        <p class="card-text">5 Juillet 2024</p>
+                        <p class="card-text">Discerner et obéir à la voix de Dieu dans notre vie quotidienne...</p>
+                        <a href="#" class="btn btn-primary">Lire la suite</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="text-center mt-4">
+            <a href="blog.html" class="btn btn-primary">Voir tous les articles</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section-padding">
+    <div class="container animate-on-scroll">
+        <h2 class="text-center mb-5">Contactez-nous</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="contact.html" class="btn btn-primary">Plus d'infos</a>
+        </div>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>© 2025 Femme en Prière. Tous droits réservés.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-title">Femme en Prière</h5>
+                    <p class="footer-text">Une communauté de femmes dédiées à la prière, l'évangélisation et la transformation spirituelle.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-title">Liens Utiles</h5>
+                    <ul class="footer-nav">
+                        <li><a href="index.html#home">Accueil</a></li>
+                        <li><a href="about.html">A Propos</a></li>
+                        <li><a href="activities.html">Activités</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-title">Nous Contacter</h5>
+                    <p class="footer-text"><a href="mailto:contact@femmeenpriere.org" class="footer-link">contact@femmeenpriere.org</a></p>
+                    <p class="footer-text"><a href="https://wa.me/1234567890" class="footer-link">+123 456 7890</a></p>
+                    <div class="social-media mt-3">
+                        <a href="https://facebook.com/femmeenpriere" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/femmeenpriere" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/1234567890" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center mt-4">
+                <p>© 2025 Femme en Prière pour le Royaume de Dieu. Tous droits réservés.</p>
+            </div>
         </div>
     </footer>
 
-    <!-- Bootstrap JS and Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-    <!-- Custom JS -->
-    <script src="scripts.js"></script>
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="scripts.js"></script>
+
 </body>
 </html>
